@@ -1,5 +1,5 @@
 {
-  "name": "simeon-smith/db-snapshot",
+  "name": "jimbojsb/db-snapshot",
   "description": "Snapshot your database with mysqldump and store it to a an asset volume (S3). Also restore it from that same location. Great for local dev snapshots and nightly backups.",
   "type": "craft-plugin",
   "keywords": [
@@ -10,14 +10,14 @@
     "db snapshot"
   ],
   "support": {
-    "docs": "https://github.com/simeon-smith/db-snapshot/blob/master/README.md",
-    "issues": "https://github.com/simeon-smith/db-snapshot/issues"
+    "docs": "https://github.com/jimbojsb/db-snapshot/blob/master/README.md",
+    "issues": "https://github.com/jimbojsb/db-snapshot/issues"
   },
   "license": "MIT",
   "authors": [
     {
       "name": "Josh butts",
-      "homepage": "https://github.com/simeon-smith"
+      "homepage": "https://github.com/jimbojsb"
     }
   ],
   "require": {
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "simeon-smith\\dbsnapshot\\": "src/"
+      "jimbojsb\\dbsnapshot\\": "src/"
     }
   },
   "extra": {
@@ -34,7 +34,7 @@
     "handle": "db-snapshot",
     "hasCpSettings": true,
     "hasCpSection": false,
-    "changelogUrl": "https://raw.githubusercontent.com/simeon-smith/db-snapshot/master/CHANGELOG.md",
-    "class": "simeon-smith\\dbsnapshot\\DbSnapshot"
+    "changelogUrl": "https://raw.githubusercontent.com/jimbojsb/db-snapshot/master/CHANGELOG.md",
+    "class": "jimbojsb\\dbsnapshot\\DbSnapshot"
   }
 }
